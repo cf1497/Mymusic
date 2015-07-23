@@ -1,0 +1,150 @@
+
+
+<include file="header" title="music"/>
+
+<div class="concert">
+	<div class="container">
+		<p class="title">CONCERT RECOMMEND</p>
+		<table class="table table-bordered table-condensed">
+			<tr align="center">
+				<td>concert name</td>
+				<td>band</td>
+				<td>style</td>
+				<td>when & where</td>
+				<td>your choice</td>
+			</tr>
+		<foreach name="concert" item="v">
+			<tr>
+				<td width="300"><span><php>if(isV($v['id'])){echo "[V]  ";}</php>{$v.concert_name}</span></td>
+				<td >
+					<span><a href="{:U('band',array('id'=>$v['concert_band_id']))}">{:getBand($v['concert_band_id'])}</a></span>
+				</td>
+				<td width="300">
+					<span>
+						<php>
+							$style = getStyle($v['concert_style_id']);
+							foreach($style as $s){
+						</php>
+						<a href="{:U('concert',array('style'=>$s['id']))}">{$s.style_name}</a> 
+						<php>
+							}
+						</php>
+					</span>
+				</td>
+				<td>
+					<span><a href="{:U('concert',array('city'=>$v['concert_city']))}">{$v.concert_city}</a></span> 
+					on
+					<span><a href="{:U('concert',array('date'=>$v['concert_play_date']))}">{$v.concert_play_date}</a></span> 
+				</td>
+				<td align="right">
+					<span><a href="http://www.google.com/" target="_blank">link</a></span>, 
+					<span>
+						<php>if(isAdded($v['id'])){</php>
+						is already added
+						<php>}else{</php>
+						<a href="{:U('User/listConcert',array('id'=>$v['id']))}">add</a>
+						<php>}</php>
+					</span>, 
+					<span>
+						<php>if(isRated("concert",$v['id'])){</php>
+						is already rated
+						<php>}else{</php>
+						<a href="{:U('User/rateConcert',array('id'=>$v['id']))}">rate</a>
+						<php>}</php>
+					</span>, 
+					<span><a href="{:U('User/reviewPage',array('id'=>$v['id']))}">review</a></span> 
+				</td>
+			</tr>
+		</foreach>
+		</table>
+	</div>
+</div>
+
+
+<div class="concert">
+	<div class="container">
+		<p class="title">BAND RECOMMEND</p>
+		<table class="table table-bordered table-condensed">
+			<tr align="center">
+				<td>band name</td>
+				<td>style</td>
+				<td>your choice</td>
+			</tr>
+		<foreach name="band" item="v">
+			<tr>
+				<td width="300"><span><a href="{:U('band',array('id'=>$v['id']))}">{$v.band_name}</a></span></td>
+				<td width="300">
+					<span>
+						<php>
+							$style = getStyle($v['band_style_id']);
+							foreach($style as $s){
+						</php>
+						<a href="{:U('band',array('style'=>$s['id']))}">{$s.style_name}</a> 
+						<php>
+							}
+						</php>
+						
+					</span>
+				</td>
+				
+				<td align="right">
+					<span>
+						<php>if(isFans($v['id'])){</php>
+						is already a fan
+						<php>}else{</php>
+						<a href="{:U('User/fanBand',array('id'=>$v['id']))}">be a fan</a>
+						<php>}</php>
+					</span>, 
+					<span>
+						<php>if(isRated("band",$v['id'])){</php>
+						is already rated
+						<php>}else{</php>
+						<a href="{:U('User/rateBand',array('id'=>$v['id']))}">rate</a>
+						<php>}</php>
+					</span>
+				</td>
+			</tr>
+		</foreach>
+		</table>
+	</div>
+</div>
+
+<div class="concert">
+	<div class="container">
+		<p class="title">POPULAR USER</p>
+		<table class="table table-bordered table-condensed">
+			<tr align="center">
+				<td>user name</td>
+				
+				<td>your choice</td>
+			</tr>
+		<foreach name="popUser" item="v">
+			<tr>
+				<td>
+					<php>
+					$isFollowed = isFollowed($v['id']);
+					
+					if($isFollowed){
+					</php>
+					<a href="{:U('User/profile',array('name'=>$v['user_name']))}">{$v['user_name']}</a>
+					<php>}else{</php>
+					<span>{$v.user_name}</span>
+					<php>}</php>
+					
+				</td>
+				<td>
+					<php>
+					$isFollowed = isFollowed($v['id']);
+					
+					if($isFollowed==false){
+					</php>
+					<a href="{:U('User/follow',array('id'=>$v['id']))}">follow</a>
+					<php>}else{</php>
+					<span>is already followed</span>
+					<php>}</php>
+				</td>
+			</tr>
+		</foreach>
+		</table>
+	</div>
+</div>

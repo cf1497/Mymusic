@@ -1,0 +1,24 @@
+
+<include file="Index/header" title="my band" />
+
+<div class="ucenter">
+	<div class="container">
+		<table class="table table-condensed table-bordered">
+			<foreach name="band" item="v">
+			<tr>
+				<td><a href="{:U('Index/band',array('name'=>$v['band_name']))}">{$v.band_name}</a></td>
+				<td><a href="{:U('User/quitFans',array('id'=>$v['id']))}">quit loving</a></td>
+			</tr>
+			</foreach>
+		</table>
+
+		<a href="/" class="btn">back to INDEX</a>
+		or
+		<a href="{:U('User/index')}" class="btn">back to USER CENTER</a>
+		
+	</div>
+</div>
+
+<script>
+
+</script>

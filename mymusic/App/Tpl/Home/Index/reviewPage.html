@@ -1,0 +1,33 @@
+
+
+<include file="Index/header"  title="concert_review"/>
+
+<div class="concert">
+	<div class="container">
+		<h3>CONCERT_REVIEW</h3>
+
+		<div class="f20">{$concert.concert_name}</div>
+
+		<br>
+
+		<div class="f16" style="border-bottom:1px solid orange">all revews:</div>
+
+		<br>
+
+		<foreach name="review" item="v">
+		<div style="margin-bottom:10px;border-bottom:1px solid blue;">
+			<p>{$v.user_name} says:</p>
+			<p>{$v.content}</p>
+
+		</div>
+		</foreach>
+		<form action="{:U('User/review')}" class="form-inline" method="post">
+			<input type="hidden" name="concert_id" value="{$concert.id}">
+			<input type="hidden" name="concert_name" value="{$concert.concert_name}">
+			<textarea name="content"></textarea>
+			<input type="submit" value="post review">
+		</form>
+	</div>
+</div>
+
+

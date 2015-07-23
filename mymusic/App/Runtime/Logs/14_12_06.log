@@ -1,0 +1,458 @@
+[ 2014-12-06T13:46:01+08:00 ] 127.0.0.1 /
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2014-12-06T13:58:23+08:00 ] 127.0.0.1 /index.php/reviewpage/id/1.html
+ERR: 无法加载模块:Reviewpage
+
+[ 2014-12-06T13:58:27+08:00 ] 127.0.0.1 /index.php/reviewpage/id/1.html
+ERR: 无法加载模块:Reviewpage
+
+[ 2014-12-06T13:59:16+08:00 ] 127.0.0.1 /index.php/reviewpage/id/1.html
+ERR: 无法加载模块:Reviewpage
+
+[ 2014-12-06T14:00:35+08:00 ] 127.0.0.1 /index.php/user/login.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2014-12-06T14:00:37+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:00:54+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:01:12+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:02:41+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:02:52+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:03:05+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:04:13+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:06:39+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:09:46+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:09:55+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:10:19+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:10:32+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:10:34+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:11:02+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:11:17+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:15:20+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:15:21+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:15:28+08:00 ] 127.0.0.1 /index.php/user/review.html?concert_id=1&concert_name=master+of+puppets&content=very+good%21%21%21
+NOTIC: 建议使用I方法替代_post
+
+[ 2014-12-06T14:15:52+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:16:00+08:00 ] 127.0.0.1 /index.php/user/review.html
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2014-12-06T14:16:01+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:16:28+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:16:37+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:16:46+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:17:54+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:17:55+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:17:57+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:17:58+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/2.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:24:59+08:00 ] 127.0.0.1 /index.php/user/rateConcert/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:31:20+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:34:17+08:00 ] 127.0.0.1 /index.php/user/listConcert/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:39:38+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:39:39+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:44:15+08:00 ] 127.0.0.1 /index.php/user/listConcert/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:45:06+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:45:33+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:47:08+08:00 ] 127.0.0.1 /index.php/index/band/id/1.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:47:11+08:00 ] 127.0.0.1 /index.php/index/band/style/7.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:47:51+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/2.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:47:57+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:47:59+08:00 ] 127.0.0.1 /index.php/user/reviewPage/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:48:00+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:52:27+08:00 ] 127.0.0.1 /index.php/user/rateBand/id/1.html
+NOTIC: 建议使用I方法替代_get
+ERR: 模板不存在[./App/Tpl/Home/User/rateband.html]
+
+[ 2014-12-06T14:53:33+08:00 ] 127.0.0.1 /index.php/user/rateBand/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:54:34+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:54:38+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:54:39+08:00 ] 127.0.0.1 /index.php/index/band/id/1.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T14:54:41+08:00 ] 127.0.0.1 /index.php/index/band/style/7.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:03:05+08:00 ] 127.0.0.1 /index.php/user/fanBand/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:03:22+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:10:16+08:00 ] 127.0.0.1 /index.php/index/band/name/metallica.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:10:26+08:00 ] 127.0.0.1 /index.php/user/quitFans/id/1.html
+ERR: 非法操作:quitfans
+
+[ 2014-12-06T15:12:30+08:00 ] 127.0.0.1 /index.php/user/quitFans/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:12:38+08:00 ] 127.0.0.1 /index.php/user/quitFans/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:14:13+08:00 ] 127.0.0.1 /index.php/user/concertList.html
+ERR: 非法操作:concertlist
+
+[ 2014-12-06T15:14:30+08:00 ] 127.0.0.1 /index.php/user/concertList.html
+ERR: 非法操作:concertlist
+
+[ 2014-12-06T15:15:31+08:00 ] 127.0.0.1 /index.php/user/concertList.html
+ERR: 非法操作:concertlist
+
+[ 2014-12-06T15:20:21+08:00 ] 127.0.0.1 /index.php/user/outList/id/1.html
+NOTIC: 建议使用I方法替代_get
+ERR: Model:wher您所请求的方法不存在！
+
+[ 2014-12-06T15:20:29+08:00 ] 127.0.0.1 /index.php/user/outList/id/1.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:20:32+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:20:35+08:00 ] 127.0.0.1 /index.php/user/listConcert/id/2.html
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:20:36+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:20:43+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:21:34+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:22:52+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:23:01+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:24:10+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:25:50+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:26:10+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:26:23+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:26:23+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:26:29+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:26:30+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:26:36+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:26:44+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:06+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:06+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:14+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:16+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:21+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:22+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:31+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:32+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:32+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:32+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:32+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:27:32+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:28:10+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:31:08+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:31:31+08:00 ] 127.0.0.1 /index.php/index/band.html?name=&style=1
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:31:35+08:00 ] 127.0.0.1 /index.php/index/band.html?name=&style=7
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:31:37+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:31:38+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:32:37+08:00 ] 127.0.0.1 /index.php/index/band.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:32:41+08:00 ] 127.0.0.1 /index.php/index/band.html?name=meta&style=1
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:32:47+08:00 ] 127.0.0.1 /index.php/index/band.html?name=meta&style=7
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:33:17+08:00 ] 127.0.0.1 /index.php/index/band.html?name=meta&style=7
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:33:19+08:00 ] 127.0.0.1 /index.php/index/band.html?name=&style=0
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:33:21+08:00 ] 127.0.0.1 /index.php/index/band.html?name=meta&style=0
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:34:06+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:36:11+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:37:53+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:38:23+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:38:44+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:39:01+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:39:09+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:39:19+08:00 ] 127.0.0.1 /index.php/index/concert.html?name=mas&city=&date=&band_id=0&style=0
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:39:22+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+
+[ 2014-12-06T15:39:36+08:00 ] 127.0.0.1 /index.php/index/concert.html
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+

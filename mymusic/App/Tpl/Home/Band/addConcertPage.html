@@ -1,0 +1,34 @@
+
+<include file="Index/header" title="user center" />
+
+<div class="ucenter">
+	<div class="container">
+		<form action="{:U('Band/addConcert')}" class="form-inline" method="post">
+			<p>concert name<input type="text" name="name"></p>
+			<p>
+				band : {$band.band_name}
+			</p>
+			<p>city<input type="text" name="city"></p>
+			<p>
+				date
+				<input type="text" name="date">
+			</p>
+			<p>
+				time
+				<input type="text" name="time">
+			</p>
+			<p>
+				style:
+				<foreach name="style" item="v">
+				<label><input type="checkbox" name="style[]" value="{$v.id}">{$v.style_name}</label>&nbsp;
+				</foreach>
+			</p>
+
+			<p>
+				<input type="submit" value="create">
+			</p>
+		</form>
+	</div>
+</div>
+
+<include file="Index/footer" title="user center" />

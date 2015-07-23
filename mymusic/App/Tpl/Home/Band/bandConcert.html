@@ -1,0 +1,58 @@
+
+<include file="Index/header" title=""/>
+
+<div class="ucenter">
+	<div class="container">
+		<table class="table table-bordered table-condensed">
+			<tr align="center">
+				<td>concert name</td>
+				<td>band</td>
+				<td>style</td>
+				<td>when & where</td>
+				<td>your choice</td>
+			</tr>
+		<foreach name="concert" item="v">
+			<tr>
+				<td width="300"><span>{$v.concert_name}</span></td>
+				<td >
+					<span><a href="{:U('band',array('id'=>$v['concert_band_id']))}">{:getBand($v['concert_band_id'])}</a></span>
+				</td>
+				<td width="300">
+					<span>
+						<php>
+							$style = getStyle($v['concert_style_id']);
+							foreach($style as $s){
+						</php>
+						<a href="{:U('concert',array('style'=>$s['id']))}">{$s.style_name}</a> 
+						<php>
+							}
+						</php>
+					</span>
+				</td>
+				<td>
+					<span><a href="{:U('concert',array('city'=>$v['concert_city']))}">{$v.concert_city}</a></span> 
+					on
+					<span><a href="{:U('concert',array('date'=>$v['concert_play_date']))}">{$v.concert_play_date}</a></span> 
+				</td>
+				<td align="right">
+					<php>if(isPosted($v['id'])){</php>
+					<span>is post</span>, 
+					<span><a href="{:U('User/reviewPage',array('id'=>$v['id']))}">review</a></span> 
+					<php>}else{</php>
+						<span><a href="{:U('Band/post',array('id'=>$v['id']))}">post</a></span>
+					<php>}</php>
+				</td>
+			</tr>
+		</foreach>
+		</table>
+
+		<a href="/" class="btn">back to INDEX</a>
+		or
+		<a href="{:U('Index/band')}" class="btn">back to BAND</a>
+		
+	</div>
+</div>
+
+<script>
+
+</script>

@@ -1,0 +1,63 @@
+
+<include file="Index/header" title="user center" />
+
+<div class="ucenter">
+	<div class="container">
+		<table class="table table-condensed table-bordered">
+			<tr>
+				<td width="200"><span>user name</span></td>
+				<td><span>{$user.user_name}</span></td>
+			</tr>
+			<tr>
+				<td width="200"><span>email</span></td>
+				<td><span>{$user.user_mail}</span></td>
+			</tr>
+			<tr>
+				<td width="200"><span>city</span></td>
+				<td><span>{$user.user_city}</span></td>
+			</tr>
+			<tr>
+				<td width="200"><span>birthday</span></td>
+				<td><span>{$user.user_birthday}</span></td>
+			</tr>
+		</table>
+
+		<hr>
+		<h3>POST</h3>
+		<foreach name="content" item="v">
+		<div style="width:100%;border:1px solid silver;float:left;margin-bottom:20px;">
+			<div style="width:300px;min-height:100px;border:1px solid red;float:left;">{$v.content}</div>
+
+			<div style="width:100%;border:0px solid red;float:left;">					
+				<php>
+					if(isLiked($v['id'])){
+				</php>
+				is liked
+				<php>}else{</php>
+				<a href="{:U('User/like',array('id'=>$v['id']))}">like</a>
+				<php>}</php>
+			
+				({$v.like_num})
+
+			</div>
+			<div style="width:100%;border:0px solid red;float:left;">
+
+				<form action="{:U('User/comment')}" method="post">
+					<input type="hidden" name="id" value="{$v['id']}">
+					<textarea class="fl" name="comment"></textarea><input  type="submit" value="comment">
+				</form>
+			</div>
+			<div style="width:100%;border:1px solid pink;float:left;">COMMENTS:<br>
+				<php>
+					$comment = getComment($v['id']);
+					foreach($comment as $c){
+				</php>
+				<div style="width:100%;border:0px solid red;float:left;">{$c.comment_user} : {$c.comment}</div>
+				<php>}</php>
+			</div>
+		</div>
+
+		</foreach>
+		
+	</div>
+</div>

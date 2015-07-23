@@ -1,0 +1,129 @@
+
+/*Login页面*/
+#Login{
+	background-color:#999999;
+}
+#Login form{
+	width:305px;
+	margin:0 auto;
+	padding:10px;
+	margin-top:180px;
+	border:0px solid red;
+	box-shadow:0px 0px 15px #666666;
+	border-radius:10px;
+	background-color:#CCC;
+}
+
+#Login form #verify{
+	width:85px;
+}
+
+
+/*Left页面*/
+#Left{
+	
+}
+
+#Left #globalNav{
+	list-style:none;
+	margin:0 auto;
+	padding:0;
+	width:190px;
+}
+#Left #globalNav li{
+	background-color:#FFC;
+	border-top:1px solid pink;
+	list-style:none;
+}
+#Left #globalNav a{
+	display:inline-block;
+	width:100%;
+	padding:8px 0;
+	text-align: center;
+}
+#Left #globalNav a:hover{
+	text-decoration: none;
+}
+#Left #globalNav p{
+	background-color:#FFC;
+	border-top:1px solid pink;
+	list-style:none;
+	margin:0;
+}
+
+#Left #globalNav .first{
+	width: 100%;
+	display:inline-block;
+	text-align: left;
+	float: left;
+}
+#Left #globalNav .first .flag{
+	float: right;
+	margin-right:2px;
+}
+
+#Left #globalNav .first .open{ /* 动画效果 */
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+
+	transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;	/* IE 9 */
+	-moz-transition: all 0.2s ease-in-out; 	/* Firefox */
+    -webkit-transition: all 0.2s ease-in-out; /* Safari 和 Chrome */
+    -o-transition: all 0.2s ease-in-out; 	/* Opera */
+}
+
+
+/*main页面*/
+.main{
+	margin-left:20px;
+	margin-top:20px;
+	background-color:#FFF7FF;
+}
+
+.main table{
+	width:98%;
+}
+
+
+/*分页样式*/
+#page{font:12px/16px arial}
+#page span{float:left;margin:0px 3px;}
+#page a{float:left;margin:0 3px;border:1px solid #ddd;padding:3px 7px; text-decoration:none;color:#666}
+#page a.now_page,#page a:hover{color:#fff;background:#05c}
+#page span.text{line-height:25px;}
+
+
+
+
+/*css原子*/
+.red{color:red;}
+.green{color:green;}
+.blue{color:blue;}
+.pink{color:pink;}
+.white{color:white;}
+.black{color:black;}
+.silver{color:silver;}
+.gray{color:gray;}
+
+.fl{float:left;}
+.fr{float:right;}
+.tc{text-align: center;}
+
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px;}
+
+.ml10{margin-left:10px;}
+.ml20{margin-left:20px;}
+.ml30{margin-left:30px;}
+.ml40{margin-left:40px;}
+.ml50{margin-left:50px;}
+.ml60{margin-left:60px;}
+
+.pl10{padding-left:10px;}
+
+
+.f12{font-size:12px;}

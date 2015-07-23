@@ -1,0 +1,37 @@
+
+<include file="Index/header" title="user center" />
+
+<div class="ucenter">
+	<div class="container">
+		<form action="{:U('User/addConcert')}" class="form-inline" method="post">
+			<p>concert name<input type="text" name="name"></p>
+			<p>
+				band
+				<select name="band">
+				<foreach name="band" item="v">
+					<option value="{$v.id}">{$v.band_name}</option>
+				</foreach>
+				</select>
+			</p>
+			<p>city<input type="text" name="city"></p>
+			<p>
+				date
+				<input type="text" name="date">
+			</p>
+			<p>
+				time
+				<input type="text" name="time">
+			</p>
+			<p>
+				style:
+				<foreach name="style" item="v">
+				<label><input type="checkbox" name="style[]" value="{$v.id}">{$v.style_name}</label>&nbsp;
+				</foreach>
+			</p>
+
+			<p>
+				<input type="submit" value="create">
+			</p>
+		</form>
+	</div>
+</div>

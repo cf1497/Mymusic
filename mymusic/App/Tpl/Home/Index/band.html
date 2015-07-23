@@ -1,0 +1,83 @@
+
+
+<include file="header"  title="music"/>
+
+<div class="concert">
+	<div class="container">
+		<p class="title">
+			BAND
+			<php>if(isBandLogin()){</php>
+			
+			<a class="fr ml10" href="{:U('Band/quit')}">[band quit]</a>
+			<a class="fr ml10" href="{:U('Band/addConcertPage')}">[create concert]</a>
+			<a class="fr ml10" href="{:U('Band/bandConcert')}">[post concert]</a>
+			<span class="fr ">welcome {$_SESSION['band_name']}</span>
+			<php>}else{</php>
+			<a class="fr ml10" href="{:U('Band/registPage')}">[band regist]</a>
+			<a class="fr" href="{:U('Band/loginPage')}">[band login]</a>
+			<php>}</php>
+		</p>
+
+		<form action="" method="get" class="form-inline">
+			<span class="fl"><span class="fl">name</span><input type="text" name="name"></span>
+			<span class="fl">
+				style
+				<select name="style">
+					<option value="0">all</option>
+					<foreach name="style" item="v">
+					<option value="{$v.id}">{$v.style_name}</option>
+					</foreach>
+				</select>
+			</span>
+
+			<span class="fl"><input type="submit" value="search"></span>
+		</form>
+
+
+		<table class="table table-bordered table-condensed">
+			<tr align="center">
+				<td>band name</td>
+				<td>style</td>
+				<td>your choice</td>
+			</tr>
+		<foreach name="band" item="v">
+			<tr>
+				<td width="300"><span><a href="{:U('band',array('id'=>$v['id']))}">{$v.band_name}</a></span></td>
+				<td width="300">
+					<span>
+						<php>
+							$style = getStyle($v['band_style_id']);
+							foreach($style as $s){
+						</php>
+						<a href="{:U('band',array('style'=>$s['id']))}">{$s.style_name}</a> 
+						<php>
+							}
+						</php>
+						
+					</span>
+				</td>
+				
+				<td align="right">
+					<span>
+						<php>if(isFans($v['id'])){</php>
+						is already a fan
+						<php>}else{</php>
+						<a href="{:U('User/fanBand',array('id'=>$v['id']))}">be a fan</a>
+						<php>}</php>
+					</span>,
+					<span>
+						<php>if(isRated("band",$v['id'])){</php>
+						is already rated
+						<php>}else{</php>
+						<a href="{:U('User/rateBand',array('id'=>$v['id']))}">rate</a>
+						<php>}</php>
+					</span>
+				</td>
+			</tr>
+		</foreach>
+		</table>
+		<div id="page">{$page}</div>
+	</div>
+</div>
+
+<include file="footer" />

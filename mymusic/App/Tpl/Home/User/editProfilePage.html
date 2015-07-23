@@ -1,0 +1,29 @@
+
+<include file="Index/header" title="user center" />
+
+<div class="ucenter">
+	<div class="container">
+		<form action="{:U('User/editProfile')}"  method="post" class="form-inline">
+		<table class="table table-condensed table-bordered">
+			<tr>
+				<td width="200"><span>user name</span></td>
+				<td><span>{$user.user_name}</span></td>
+			</tr>
+			<tr>
+				<td width="200"><span>email</span></td>
+				<td><span>{$user.user_mail}</span></td>
+			</tr>
+			<tr>
+				<td width="200"><span>city</span></td>
+				<td><span><input type="text" name="city" value="{$user.user_city}"></span></td>
+			</tr>
+			<tr>
+				<td width="200"><span>birthday</span></td>
+				<td><span><input type="text" name="birthday" value="{$user.user_birthday}">&nbsp;(format:yyyy-mm-dd)</span></td>
+			</tr>
+		</table>
+		<input type="submit" class="btn" value="edit">&nbsp;or&nbsp;<a href="javascript:history.go(-1)" class="btn">go back</a>
+	</form>
+		
+	</div>
+</div>

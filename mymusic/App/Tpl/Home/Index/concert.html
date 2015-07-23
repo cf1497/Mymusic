@@ -1,0 +1,91 @@
+
+
+<include file="header"  title="music"/>
+
+<div class="concert">
+	<div class="container">
+		<p class="title">CONCERT</p>
+
+		<form action="" method="get" class="form-inline">
+			<span class="fl"><span class="fl">name</span><input type="text" name="name"></span>
+			<span class="fl ml5"><span class="fl">city</span><input type="text" name="city"></span>
+			<span class="fl ml5"><span class="fl">date</span><input type="text" name="date"></span>
+			<span class="fl ml5">
+				band
+				<select name="band_id">
+					<option value="0">all</option>
+					<foreach name="band" item="v">
+					<option value="{$v.id}">{$v.band_name}</option>
+					</foreach>
+				</select>
+			</span>
+			<span class="fl ml5">
+				style
+				<select name="style">
+					<option value="0">all</option>
+					<foreach name="style" item="v">
+					<option value="{$v.id}">{$v.style_name}</option>
+					</foreach>
+				</select>
+			</span>
+
+			<span class="fl"><input type="submit" value="search"></span>
+		</form>
+
+		<table class="table table-bordered table-condensed">
+			<tr align="center">
+				<td>concert name</td>
+				<td>band</td>
+				<td>style</td>
+				<td>when & where</td>
+				<td>your choice</td>
+			</tr>
+		<foreach name="concert" item="v">
+			<tr>
+				<td width="300"><span><php>if(isV($v['id'])){echo "[V]  ";}</php>{$v.concert_name}</span></td>
+				<td >
+					<span><a href="{:U('band',array('id'=>$v['concert_band_id']))}">{:getBand($v['concert_band_id'])}</a></span>
+				</td>
+				<td width="300">
+					<span>
+						<php>
+							$style = getStyle($v['concert_style_id']);
+							foreach($style as $s){
+						</php>
+						<a href="{:U('concert',array('style'=>$s['id']))}">{$s.style_name}</a> 
+						<php>
+							}
+						</php>
+					</span>
+				</td>
+				<td>
+					<span><a href="{:U('concert',array('city'=>$v['concert_city']))}">{$v.concert_city}</a></span> 
+					on
+					<span><a href="{:U('concert',array('date'=>$v['concert_play_date']))}">{$v.concert_play_date}</a></span> 
+				</td>
+				<td align="right">
+					<span><a href="http://www.google.com/" target="_blank">RSVP</a></span>, 
+					<span><a href="http://www.google.com/" target="_blank">link</a></span>, 
+					<span>
+						<php>if(isAdded($v['id'])){</php>
+						is already added
+						<php>}else{</php>
+						<a href="{:U('User/listConcert',array('id'=>$v['id']))}">add</a>
+						<php>}</php>
+					</span>, 
+					<span>
+						<php>if(isRated("concert",$v['id'])){</php>
+						is already rated
+						<php>}else{</php>
+						<a href="{:U('User/rateConcert',array('id'=>$v['id']))}">rate</a>
+						<php>}</php>
+					</span>, 
+					<span><a href="{:U('User/reviewPage',array('id'=>$v['id']))}">review</a></span> 
+				</td>
+			</tr>
+		</foreach>
+		</table>
+	</div>
+</div>
+
+
